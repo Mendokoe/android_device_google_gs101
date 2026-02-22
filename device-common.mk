@@ -15,18 +15,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
 
-# Set system properties identifying the chipset
-PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Google
-PRODUCT_VENDOR_PROPERTIES += ro.soc.model=Tensor
-
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.vendor.testing_battery_profile=2
-
-# The default value of this variable is false and should only be set to true when
-# the device allows users to retain eSIM profiles after factory reset of user data.
-PRODUCT_PRODUCT_PROPERTIES += \
-    masterclear.allow_retain_esim_profiles_after_fdr=true
-
 # ZramWriteback
 -include hardware/google/pixel/mm/device_gki.mk
 
