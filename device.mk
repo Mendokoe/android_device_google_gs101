@@ -683,3 +683,5 @@ DEVICE_MATRIX_FILE += \
     device/google/gs101/vintf/compatibility_matrix.xml
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
     device/google/gs101/vintf/device_framework_matrix_product.xml
+
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST := %
