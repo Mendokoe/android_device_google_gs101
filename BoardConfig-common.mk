@@ -140,7 +140,7 @@ BOARD_GOOGLE_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 BOARD_SUPER_PARTITION_ERROR_LIMIT := 8111783936
 
 # Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/alpha/config/BoardConfigReservedSize.mk
 
 # Device Tree
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
