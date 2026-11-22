@@ -18,7 +18,7 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 persist.bluetooth.a2dp_aac.vbr_supported=true
-persist.bluetooth.bqr.event_mask=30
+persist.bluetooth.bqr.event_mask=0
 persist.bluetooth.bqr.min_interval_ms=500
 persist.bluetooth.firmware.selection=BCM.hcd
 
